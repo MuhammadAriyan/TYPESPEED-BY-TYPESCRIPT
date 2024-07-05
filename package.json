@@ -1,0 +1,25 @@
+{
+  "name": "typespeed_by_typescript",
+  "version": "1.0.3",
+  "description": "HEY THERE, THIS IS MY TYPSPEED CLI BASED PROJECT USING TYPESCRIPT",
+  "bin": "dist/type.js",
+  "type": "module",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/figlet": "^1.5.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@M_D_ARY",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.23",
+    "inquirer-press-to-continue": "^1.2.0"
+  }
+}
